@@ -1,0 +1,5 @@
+com\base\web\base\runner\base\WebBaseRunnerTest.class
+com\base\web\base\runner\pruebaRunner.class
+com\base\web\base\stepdefinition\altaclienteStep.class
+com\base\web\base\stepdefinition\altacuentaStep.class
+com\base\web\base\stepdefinition\altaprestamoStep.class
