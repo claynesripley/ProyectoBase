@@ -1,68 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-02T11:46:56 COT" name="Web-Test-Suite" finished-at="2023-02-02T11:49:36 COT" duration-ms="159615">
+  <suite started-at="2023-02-14T13:52:15 COT" name="Web-Test-Suite" finished-at="2023-02-14T13:52:43 COT" duration-ms="27349">
     <groups>
       <group name="cucumber">
         <method signature="pruebaRunner.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.base.web.base.runner.pruebaRunner@7690781]" name="scenario" class="com.base.web.base.runner.pruebaRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-02-02T11:46:56 COT" name="wt1" finished-at="2023-02-02T11:49:36 COT" duration-ms="159615">
+    <test started-at="2023-02-14T13:52:15 COT" name="wt1" finished-at="2023-02-14T13:52:43 COT" duration-ms="27349">
       <class name="com.base.web.base.runner.pruebaRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.base.web.base.runner.pruebaRunner@7690781]" started-at="2023-02-02T11:46:56 COT" name="setUpClass" finished-at="2023-02-02T11:46:58 COT" duration-ms="1774" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.base.web.base.runner.pruebaRunner@7690781]" started-at="2023-02-14T13:52:15 COT" name="setUpClass" finished-at="2023-02-14T13:52:17 COT" duration-ms="1435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.base.web.base.runner.pruebaRunner@7690781]" started-at="2023-02-02T11:46:58 COT" name="setup" finished-at="2023-02-02T11:47:01 COT" duration-ms="3081" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.base.web.base.runner.pruebaRunner@7690781]" started-at="2023-02-14T13:52:17 COT" name="setup" finished-at="2023-02-14T13:52:19 COT" duration-ms="2234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.base.web.base.runner.pruebaRunner@7690781]" started-at="2023-02-02T11:47:01 COT" name="scenario" description="Run Cucumber Features." data-provider="scenarios" finished-at="2023-02-02T11:49:11 COT" duration-ms="129620" status="PASS">
+        <test-method signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.base.web.base.runner.pruebaRunner@7690781]" started-at="2023-02-14T13:52:19 COT" name="scenario" description="Run Cucumber Features." data-provider="scenarios" finished-at="2023-02-14T13:52:37 COT" duration-ms="17529" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Alta de Prestamo"]]>
+                <![CDATA["Buscar Cliente"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Optional[Alta prestamo]"]]>
+                <![CDATA["Optional[Prueba T24]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenario -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.base.web.base.runner.pruebaRunner@7690781]" started-at="2023-02-02T11:49:11 COT" name="teardown" finished-at="2023-02-02T11:49:11 COT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.base.web.base.runner.pruebaRunner@7690781]" started-at="2023-02-14T13:52:37 COT" name="teardown" finished-at="2023-02-14T13:52:37 COT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.base.web.base.runner.pruebaRunner@7690781]" started-at="2023-02-02T11:49:11 COT" name="setup" finished-at="2023-02-02T11:49:12 COT" duration-ms="1627" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.base.web.base.runner.pruebaRunner@7690781]" started-at="2023-02-02T11:49:12 COT" name="scenario" description="Run Cucumber Features." data-provider="scenarios" finished-at="2023-02-02T11:49:29 COT" duration-ms="16857" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Buscar Prestamo"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Alta prestamo]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scenario -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.base.web.base.runner.pruebaRunner@7690781]" started-at="2023-02-02T11:49:29 COT" name="teardown" finished-at="2023-02-02T11:49:29 COT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.base.web.base.runner.pruebaRunner@7690781]" started-at="2023-02-02T11:49:29 COT" name="tearDownClass" finished-at="2023-02-02T11:49:36 COT" duration-ms="6576" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.base.web.base.runner.pruebaRunner@7690781]" started-at="2023-02-14T13:52:37 COT" name="tearDownClass" finished-at="2023-02-14T13:52:43 COT" duration-ms="6079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

@@ -12,8 +12,9 @@ import org.testng.annotations.Test;
 import com.base.web.base.runner.base.WebBaseRunnerTest;
 
 @CucumberOptions(
-    features = "src/test/java/com/base/web/base/features/cotizador/altaprestamo.feature",
+    features = "src/test/java/com/base/web/base/features/cotizador",
     glue = "com.base.web.base.stepdefinition",
+    tags="@Somoketest",
     publish = true,
     plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
     monochrome = true

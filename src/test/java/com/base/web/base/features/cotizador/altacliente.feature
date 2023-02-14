@@ -14,6 +14,9 @@ Scenario: Alta Cliente
        | usuario      | contraseña | mnemocino |  dni | apaterno | amaterno | nombre |  ncompleto | estadocivil |  nacimiento |  gbdirec | empresa  |
        | SCISNEROSSPAS  | 123456     |  D72145815 | 72145815 | laynes | castro | carlos | carlos laynes castro | SOLTERO | 19980112 | 1 | asd |
 
+
+
+@Somoketest
 Scenario: Buscar Cliente
    Given El usuario ingresa al Login Page
    When El usuario ingresa el "<usuario>" y "<contraseña>"
